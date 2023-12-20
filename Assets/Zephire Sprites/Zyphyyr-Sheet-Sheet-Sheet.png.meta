@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: 477888b089962864d91666a69b37d978
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994dc9275fa2bf649b8cd8866b8f0809
+      internalID: -2040163197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d858edb03683944a4ab2d267a1b8fa
+      internalID: -1220670085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb05e32fb142f4d83c6ba10ac6750c
+      internalID: -2129741672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abc825571bc38e459a373d225f3f3b0
+      internalID: 1758633789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0bd5dbd6ca6cc49a7f1d02fab351ab
+      internalID: -1202114893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c3949bb3d9d8445ba645fd75493bc1
+      internalID: -1955104895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe56c80122a5fe549aed779358b1e4f8
+      internalID: -1205444911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179e1056a4bcb4e4bbbb968c7a39e1c9
+      internalID: 55237079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc45441ba9f5b46b9a48630030f375
+      internalID: 1753471549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38210e230a4cbc6478c5bbb80bd68e39
+      internalID: -509078884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19710e664ad61743bb3ba27143d281c
+      internalID: 1504865343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 3
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fed27b50744d6408564803f863c133
+      internalID: -1350421176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 3
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21adbad696d2b504c82f6d123f416595
+      internalID: 1629190876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702bd4892d490ac4288d276725d355f6
+      internalID: 184071385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 3
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4680135e73f0ffd42a0300516e353743
+      internalID: -814379321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a82c3e42f934742aa5cf30185bee6e
+      internalID: 517017720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154b4c1d6ef24942a4537c248131d30
+      internalID: 1033532687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 3
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8029dc0f7b1553b448784dbba46a24ee
+      internalID: 1640930209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ec0877273394d40b34833a18e5e650
+      internalID: -538047784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199e91e7b241d684186f475bdf8f848a
+      internalID: 2030751630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c4aa6c02b38324caeaccf409e7e2ae
+      internalID: -835501494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 3
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80931900f921b364c88d43a8132f1154
+      internalID: -1175722646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 3
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e89f45e453604f4a92f6b228d3c65de
+      internalID: -381928060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 3
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2c5db859ef0a74da71ddaf35e3acdf
+      internalID: 1927393229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 3
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468a1633285978f4cb3a1e065285fd6a
+      internalID: 1418210719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 3
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4e7fd8188cfc04cbdc52e398224b6a
+      internalID: 75170287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 3
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a642df421c39245b9fff849436afbf
+      internalID: -1371075035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ecd2a2ee55e77459553516cd86f060
+      internalID: 715454351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 2
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fcf6d1491d47b4cb215251364297f5
+      internalID: 592297338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 2
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add275d2dec898a4ab2c1152865664ac
+      internalID: -390955299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7898ce00640d3cf4a9121b75fec0d67c
+      internalID: -409402264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75e333a873431e44b12ee0813cd4a95
+      internalID: 495133903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58396cac6f86ba9418c676fcf14aeda2
+      internalID: 128155357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zyphyyr-Sheet-Sheet-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0776bb7fc65e5a349b83809317fdc9cb
+      internalID: 1529358944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Zyphyyr-Sheet-Sheet-Sheet_0: -2040163197
+      Zyphyyr-Sheet-Sheet-Sheet_1: -1220670085
+      Zyphyyr-Sheet-Sheet-Sheet_10: 1504865343
+      Zyphyyr-Sheet-Sheet-Sheet_11: -1350421176
+      Zyphyyr-Sheet-Sheet-Sheet_12: 1629190876
+      Zyphyyr-Sheet-Sheet-Sheet_13: 184071385
+      Zyphyyr-Sheet-Sheet-Sheet_14: -814379321
+      Zyphyyr-Sheet-Sheet-Sheet_15: 517017720
+      Zyphyyr-Sheet-Sheet-Sheet_16: 1033532687
+      Zyphyyr-Sheet-Sheet-Sheet_17: 1640930209
+      Zyphyyr-Sheet-Sheet-Sheet_18: -538047784
+      Zyphyyr-Sheet-Sheet-Sheet_19: 2030751630
+      Zyphyyr-Sheet-Sheet-Sheet_2: -2129741672
+      Zyphyyr-Sheet-Sheet-Sheet_20: -835501494
+      Zyphyyr-Sheet-Sheet-Sheet_21: -1175722646
+      Zyphyyr-Sheet-Sheet-Sheet_22: -381928060
+      Zyphyyr-Sheet-Sheet-Sheet_23: 1927393229
+      Zyphyyr-Sheet-Sheet-Sheet_24: 1418210719
+      Zyphyyr-Sheet-Sheet-Sheet_25: 75170287
+      Zyphyyr-Sheet-Sheet-Sheet_26: -1371075035
+      Zyphyyr-Sheet-Sheet-Sheet_27: 715454351
+      Zyphyyr-Sheet-Sheet-Sheet_28: 592297338
+      Zyphyyr-Sheet-Sheet-Sheet_29: -390955299
+      Zyphyyr-Sheet-Sheet-Sheet_3: 1758633789
+      Zyphyyr-Sheet-Sheet-Sheet_30: -409402264
+      Zyphyyr-Sheet-Sheet-Sheet_31: 495133903
+      Zyphyyr-Sheet-Sheet-Sheet_32: 1043931432
+      Zyphyyr-Sheet-Sheet-Sheet_33: -1559181207
+      Zyphyyr-Sheet-Sheet-Sheet_34: 128155357
+      Zyphyyr-Sheet-Sheet-Sheet_35: 1529358944
+      Zyphyyr-Sheet-Sheet-Sheet_4: -1202114893
+      Zyphyyr-Sheet-Sheet-Sheet_5: -1955104895
+      Zyphyyr-Sheet-Sheet-Sheet_6: -1205444911
+      Zyphyyr-Sheet-Sheet-Sheet_7: 55237079
+      Zyphyyr-Sheet-Sheet-Sheet_8: 1753471549
+      Zyphyyr-Sheet-Sheet-Sheet_9: -509078884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

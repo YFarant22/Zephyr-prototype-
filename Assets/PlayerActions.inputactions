@@ -1,0 +1,34 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Jump",
+            "id": "05033434-ed79-4039-999a-3a0f8dc76d91",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "371819bc-d873-48f8-8fd6-c387d4db5d65",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7c1bd0f9-1db3-4ff1-b3bd-f0d0c7e57ba7",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
