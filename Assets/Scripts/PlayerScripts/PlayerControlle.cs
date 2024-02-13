@@ -43,14 +43,15 @@ public class PlayerControlle : MonoBehaviour
     [Header("Glissade & Saut Mural")]
     [SerializeField] private bool isWallSliding;
     [SerializeField] private float wallSlidingSpeed = 2f;
-    [SerializeField] private bool isWallJumping;
     [SerializeField] private float wallJumpingDirection;
-    [SerializeField] private float wallJumpingTime = 0.2f;
-    [SerializeField] private float wallJumpingCounter;
-    [SerializeField] private float wallJumpingDuration = 0.4f;
-    [SerializeField] private float maxXJumpPower;
     [SerializeField] private UnityEngine.Vector2 wallJumpingPower;    
     [SerializeField] private float wallRadius;
+
+
+    public LayerMask wallLayer;
+    public float wallJumpForce = 10f;
+    public float raycastRadius;
+    public bool isTouchingWall = false;
     
     
 
@@ -59,8 +60,9 @@ public class PlayerControlle : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform wallCheck;
-    [SerializeField] private LayerMask wallLayer;
     [SerializeField] private Animator animator;
+    RaycastHit2D wallHitLeft;
+    RaycastHit2D wallHitRight;
 
     private void Start()
     {
@@ -79,8 +81,10 @@ public class PlayerControlle : MonoBehaviour
         // Mise à jour des Fonctions
             PlayerJump();
                 animator.SetFloat("yAxis", rb.velocity.y);
-                WallJump();
+               // WallJump();
                     GunShot();
+       // WallCheck();
+
                         
 
             // Détecter le sol
@@ -95,7 +99,7 @@ public class PlayerControlle : MonoBehaviour
 
 
                 // Vérification si le joueur détecte un mur
-                if (WallCheck() && rb.velocity.y < 0)
+                if (isTouchingWall && rb.velocity.y < 0)
                 {
                     isWallSliding = true;
                     rb.velocity = new UnityEngine.Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
@@ -107,14 +111,33 @@ public class PlayerControlle : MonoBehaviour
                     animator.SetBool("isFalling", false);
                 } 
 
-                    
+                wallHitLeft = Physics2D.Raycast(transform.position, UnityEngine.Vector2.left, raycastRadius, wallLayer);
+                wallHitRight = Physics2D.Raycast(transform.position, UnityEngine.Vector2.right, raycastRadius, wallLayer);
+
+                Debug.DrawRay(transform.position, UnityEngine.Vector2.left * raycastRadius, Color.red); 
+                Debug.DrawRay(transform.position, UnityEngine.Vector2.right * raycastRadius, Color.blue);
+
+                if ((wallHitLeft.collider != null || wallHitRight.collider != null) && !isGrounded)
+                {
+                    isTouchingWall = true;
+                }
+                else
+                {
+                    isTouchingWall = false;
+                }
+
+                if (Input.GetKeyDown(KeyCode.Space) && isTouchingWall && !isGrounded)
+                {
+                    PlayerWallJump();
+                }
 
     }
+
+    
 
     private void FixedUpdate()
     {
         GroundCheck();
-        WallCheck();
         PlayerMove();
 
         // Appliquer la vélocité pour le mouvement horizontal seulement
@@ -129,7 +152,7 @@ public class PlayerControlle : MonoBehaviour
         {
         horizontalMovement = Input.GetAxis("Horizontal") * speed;
         move = new UnityEngine.Vector2(horizontalMovement, rb.velocity.y);
-
+        
         if (horizontalMovement != 0)
         {
             isMoving = true;
@@ -150,10 +173,32 @@ public class PlayerControlle : MonoBehaviour
         }
     }
 
+    // Fonction de saut mural
+    private void PlayerWallJump()
+    {
+        if (wallHitLeft.collider != null && isWallSliding)
+        {
+            rb.velocity = new UnityEngine.Vector2(wallJumpForce, jumpingPower);
+            Debug.Log("Saut Mural à Droite");
+        }
+        else if (wallHitRight.collider != null && isWallSliding)
+        {
+            rb.velocity = new UnityEngine.Vector2(-wallJumpForce, jumpingPower);
+            Debug.Log("Saut Mural à Gauche");
+        }
+
+        if (transform.localScale.x != wallJumpingDirection)
+        {
+            isFacingRight = !isFacingRight;
+            UnityEngine.Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    }
+
     // Fonction de saut
     private void PlayerJump()
     {
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             isShooting = false;
@@ -161,12 +206,7 @@ public class PlayerControlle : MonoBehaviour
             {
                 Jump(jumpingPower);
                 hasUsedDoubleJump = false;
-            }else if (WallCheck() && rb.velocity.y < 0)
-            {
-                isWallSliding = true;
-            } 
-            
-            
+            }
             else if (!hasUsedDoubleJump)
             {
                 Jump(jumpingPower);
@@ -196,7 +236,7 @@ public class PlayerControlle : MonoBehaviour
         animator.SetBool("isJumping", !isGrounded);
 
     }
-
+/*
      private bool WallCheck()
      {
         return Physics2D.OverlapCircle(wallCheck.position, wallRadius, wallLayer);
@@ -206,19 +246,19 @@ public class PlayerControlle : MonoBehaviour
     private void WallJump()
     {
         if (WallCheck() && !isGrounded)
-    {
-        isWallSliding = true;
-        isWallJumping = false;
-        hasUsedDoubleJump = false;
-        wallJumpingDirection = -transform.localScale.x;
-        wallJumpingCounter = wallJumpingTime;
-
-        // Ajout de la condition pour éviter de répéter l'invocation
-        if (!IsInvoking(nameof(StopWallJumping)))
         {
-            Invoke(nameof(StopWallJumping), wallJumpingDuration);
+            isWallSliding = true;
+            isWallJumping = false;
+            hasUsedDoubleJump = false;
+            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingCounter = wallJumpingTime;
+
+            // Ajout de la condition pour éviter de répéter l'invocation
+            if (!IsInvoking(nameof(StopWallJumping)))
+            {
+                Invoke(nameof(StopWallJumping), wallJumpingDuration);
+            }
         }
-    }
     else
     {
         isWallSliding = false;
@@ -255,6 +295,8 @@ public class PlayerControlle : MonoBehaviour
     {
         isWallJumping = false;
     }
+
+    */
 
     // Système de tire
      void GunShot()
@@ -336,11 +378,6 @@ public class PlayerControlle : MonoBehaviour
         }
     }
 
-
-
-
-
-
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
@@ -348,6 +385,7 @@ public class PlayerControlle : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(wallCheck.position, wallRadius);
+        
     }
 
 }
