@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,20 @@ using Scene = UnityEditor.SearchService.SceneSearch;
 
 public class PauseMenu_script : MonoBehaviour
 {
-    public string LevelToLoad; 
+    public string LevelToLoad;
+    public GameObject pauseMenu;
+    
+    public void Update()
+    {
+        if (pauseMenu.activeSelf != true && Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("pause activated");
+            pauseMenu.SetActive(true);
+        }
         
+        
+    }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(LevelToLoad);
@@ -15,6 +28,6 @@ public class PauseMenu_script : MonoBehaviour
     
     public void ResumeGame()
     {
-        gameObject.SetActive(false);
+        pauseMenu.SetActive(false);
     }
 }
